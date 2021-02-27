@@ -5,8 +5,8 @@ class ContactImageWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     AssetImage contact = AssetImage('images/contact.png');
     Image image = Image(image: contact, 
-                        width: 100, 
-                        height: 100
+                        width: 150, 
+                        height: 150
                         );
     return Container(
       child: image,      
