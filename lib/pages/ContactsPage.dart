@@ -6,10 +6,9 @@ class ContactsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        body: ContactImageWidget(),
-      ),
+    return Padding(
+        child: Row(children: [ContactImageWidget(), ContactImageWidget(),]),
+        padding: EdgeInsets.all(10.0),
     );
   }
 }
