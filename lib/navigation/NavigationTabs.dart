@@ -7,19 +7,19 @@ class NavigationTabs extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: DefaultTabController(
-        length: 2,
+        length: 2,                      // Number of tabs
         child: Scaffold(
           appBar: AppBar(
+            title: Text('Hälsningar'),  // Set title
             bottom: TabBar(
-              tabs: [
+              tabs: [                   // Tab icons
                 Tab(icon: Icon(Icons.home)),
                 Tab(icon: Icon(Icons.people_outline_sharp)),
               ],
             ),
-            title: Text('Hälsningar'),
           ),
           body: TabBarView(
-            children: [
+            children: [                 // Add pages, locate the files under "greetings/pages" to see the page Content
               HomePage(),
               ContactsPage(),
             ],

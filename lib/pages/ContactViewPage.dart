@@ -5,10 +5,8 @@ class ContactViewPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        body: Text("Contact View"),
-      ),
+    return Center(
+      child: Text("Contact View Page"),
     );
   }
 }
