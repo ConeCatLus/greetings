@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "635115340594",
+    "project_id": "greetings-database",
+    "storage_bucket": "greetings-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635115340594:android:9ebb1f12e27bd5eb724d2b",
+        "android_client_info": {
+          "package_name": "com.conecats.greetings"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635115340594-r7s83rndh0qa2l64r9imu80f04ejsc7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSKB27vn-xfWVXh_zRxyIFCYfB3QuqHdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635115340594-r7s83rndh0qa2l64r9imu80f04ejsc7h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "635115340594-k9c4qfbic0cqvovk0bh60v11g0r4ktl0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.conecats.greetings"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
