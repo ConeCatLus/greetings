@@ -19,7 +19,7 @@ class ContactImageWidget extends StatelessWidget {
 }
 
 Widget contact() {  
-  const name = Text("Gustav Carlstedt",                       // Contact name  
+  const name = Text("Asma Syed",                       // Contact name  
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)); // Contact name Styling
   AssetImage contact = AssetImage('images/contact.png');      // Contact image source
   ClipRRect image = ClipRRect(                                // Contact image is created
