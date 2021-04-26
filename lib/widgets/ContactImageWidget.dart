@@ -6,7 +6,7 @@ class ContactImageWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       child: GestureDetector(onTap: () {                        // If the Contact Container is Tapped switch page
-          Navigator.pushReplacement(
+          Navigator.push(
             context,
             MaterialPageRoute(builder: (context) => ContactViewPage()),   // Swap to ContactViewPage() when tapped
           );
