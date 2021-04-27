@@ -20,26 +20,28 @@ class ContactImageWidget extends StatelessWidget {
 
 Widget contact() {  
   const name = Text("Asma Syed",                       // Contact name  
-                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)); // Contact name Styling
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25)); // Contact name Styling
+  const notice = Text("har ...",                       // Contact name  
+                    style: TextStyle(fontWeight: FontWeight.normal, fontSize: 20)); // Notification Styling
   AssetImage contact = AssetImage('images/contact.png');      // Contact image source
   ClipRRect image = ClipRRect(                                // Contact image is created
-                    borderRadius: BorderRadius.circular(10),  // Rouded edges to Contact Image
-                    child: Image(image: contact, 
+                    borderRadius: BorderRadius.circular(10),  // Rounded edges to Contact Image
+                    child: Image(image: contact,
                       width: 150,                             // Rouded edges to Contact Imag
                       height: 150,                            // Rouded edges to Contact Imag
                       )
                     );
     return Container(
-      child: Column(children: [image, Container(height: 5), name]),   // Contact Container contents     
-      height: 200,                                            // Contact Container height
+      child: Row(children: [Container(width: 15), image, Container(width: 15), Column(children: [Container(height: 50), name, Container(height: 15), notice])]),   // Contact Container contents     
+      height: 180,                                           // Contact Container height
       decoration: BoxDecoration(
-        color: Colors.blue, 
+        color: Colors.blue,
         borderRadius: BorderRadius.circular(10),              // Rouded edges to Contact Container
         boxShadow: [                                          // Contact Container shadowing
           BoxShadow(
-            color: Colors.blue.withOpacity(0.5),
+            color: Colors.blueGrey.withOpacity(0.5),
             spreadRadius: 5,
-            blurRadius: 7,
+            blurRadius: 3,
             offset: Offset(0, 3),                             // changes position of shadow
           ),
         ],       

@@ -8,12 +8,12 @@ class ContactsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('First Route'),
+        title: Text('Hälsningar'), // Lägg till profil, i profil inställningar
       ),
         body: Center ( child: 
           Padding(
-            child: Row(children: [ContactImageWidget(), ContactImageWidget(),]),  // Add Contacts to see in our page
-            padding: EdgeInsets.all(10.0),                                        // Add padding between contacts
+            child: Column(children: [ContactImageWidget(), ContactImageWidget(),]),  // Add Contacts to see in our page
+            padding: EdgeInsets.all(5.0),                                        // Add padding between contacts
         ),
       ),
     ); 
